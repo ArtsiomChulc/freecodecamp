@@ -31,12 +31,50 @@ console.log(wordBlanks);
 
 //! Using bracket notation select an element from myArray such that myData is equal to 8.
 
-const myArray = [
-	[1, 2, 3],
-	[4, 5, 6],
-	[7, 8, 9],
-	[[10, 11, 12], 13, 14],
-];
+// const myArray = [
+// 	[1, 2, 3],
+// 	[4, 5, 6],
+// 	[7, 8, 9],
+// 	[[10, 11, 12], 13, 14],
+// ];
 
-const myData = myArray[2][1];
-console.log(myData);
+// const myData = myArray[2][1];
+// console.log(myData);
+
+//! Push ["dog", 3] onto the end of the myArray variable.
+
+// const myArray = [["John", 23], ["cat", 2]];
+// myArray.push(["dog", 3]);
+// console.log(myArray);
+
+//!Use the .pop() function...
+
+// const myArray = [["John", 23], ["cat", 2]];
+// const removedFromMyArray = myArray.pop();
+// console.log(myArray, removedFromMyArray);
+
+
+//! //!Use the .shift() function...
+
+// const myArray = [["John", 23], ["dog", 3]];
+// const removedFromMyArray = myArray.shift();
+// console.log(myArray, removedFromMyArray);
+
+
+//! //!Use the .unshift() function...
+
+// const myArray = [["John", 23], ["dog", 3]];
+// myArray.shift();
+// myArray.unshift(["Paul", 35]);
+// console.log(myArray);
+
+
+//! There should be at least 5 sub-arrays in the list.
+
+const myList = [];
+myList.push(['aaa', 10]);
+myList.push(['bbb', 20]);
+myList.push(['ccc', 30]);
+myList.push(['ddd', 40]);
+myList.push(['sss', 50]);
+console.log(myList);
