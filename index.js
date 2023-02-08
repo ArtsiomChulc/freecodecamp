@@ -71,10 +71,34 @@ console.log(wordBlanks);
 
 //! There should be at least 5 sub-arrays in the list.
 
-const myList = [];
-myList.push(['aaa', 10]);
-myList.push(['bbb', 20]);
-myList.push(['ccc', 30]);
-myList.push(['ddd', 40]);
-myList.push(['sss', 50]);
-console.log(myList);
+// const myList = [];
+// myList.push(['aaa', 10]);
+// myList.push(['bbb', 20]);
+// myList.push(['ccc', 30]);
+// myList.push(['ddd', 40]);
+// myList.push(['sss', 50]);
+// console.log(myList);
+
+//! function.....
+
+// function functionWithArgs(a, b) {
+// 	console.log(a + b);
+// }
+// functionWithArgs(2, 4);
+
+
+//! Add the number to the end of the array, then remove the first element of the array.
+
+function nextInLine(arr, item) {
+	// Only change code below this line
+	arr.push(item);
+	item = arr.shift();
+	return item;
+	// Only change code above this line
+}
+
+// Setup
+let testArr = [1, 2, 3, 4, 5];
+
+// Display code
+console.log(nextInLine(testArr, 12));
