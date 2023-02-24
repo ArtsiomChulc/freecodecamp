@@ -798,3 +798,69 @@ function randomRange(myMin, myMax) {
 }
 
 console.log(randomRange(3, 5));*/
+
+//Функція parseInt() аналізує рядок і повертає ціле число. Наприклад:
+
+/*function convertToInteger(str) {
+    return parseInt(str);
+}
+
+convertToInteger("56");*/
+
+
+// Використання функції parseInt з розрядом
+
+/*
+function convertToInteger(str) {
+    return parseInt(str, 2);
+}
+
+convertToInteger("10011");*/
+
+
+//Використання умовного (тернарного) оператора
+
+/*
+function checkEqual(a, b) {
+    return a === b ? "Equal" : "Not Equal";
+}
+
+checkEqual(1, 2);*/
+
+//Використання декількох умовних (тернарних) операторів
+
+/*
+function checkSign(num) {
+    return num > 0 ? "positive" : (num < 0) ? "negative" : "zero";
+}
+
+checkSign(10);*/
+
+//Використання рекурсії для створення зворотного відліку
+
+/*
+function countdown(n){
+    if(n < 1) return [];
+    else {
+        let x = countdown(n - 1);
+        x.unshift(n);
+        return x;
+    }
+}
+
+console.log(countdown(5));*/
+
+
+//Використання рекурсії для створення діапазону чисел
+
+/*
+function rangeOfNumbers(startNum, endNum) {
+   if(endNum < startNum) return [];
+   else {
+       let x = rangeOfNumbers(startNum, endNum - 1);
+       x.push(endNum);
+       return x;
+   }
+}
+
+console.log(rangeOfNumbers(1, 6))*/
